@@ -93,7 +93,7 @@ Sometimes people mean different things when they say "Arrow", so in this book, w
 
 ## The Apache Arrow project
 
-The Arrow project began in 2015 as a collboration between the maintainers of a number of big-data projects.
+The Arrow project began in 2015 as a collaboration between the maintainers of a number of big-data projects.
 Since that time, it has gained a much wider community of contributors.
 At the time of writing, over one thousand unique individuals have contributed to Arrow.
 Arrow exists under the umbrella of the Apache Software Foundation and is governed by its core maintainers, who work for many different companies: no one person or corporation controls it.
