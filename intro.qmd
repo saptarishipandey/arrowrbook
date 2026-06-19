@@ -213,7 +213,7 @@ The influence of Arrow goes beyond the specifics of this C++ library, though.
 Another project that grew within Apache Arrow is **DataFusion**, an Arrow-native query engine written in Rust.
 Other projects, like the **polars** data frame library, are built on Arrow but are governed independently.
 Still others, such as **DuckDB**, have an internal format that is nearly the same as Arrow, but with some different trade-offs chosen.
-Projects like DuckDB are sufficiently similar in their implementations that it is possible to integrate them with Arrow with minimal effort so that data can be shared between Arrow and each of them without the need for costly copying back and forth
+Projects like DuckDB are sufficiently similar in their implementations that it is possible to integrate them with Arrow with minimal effort so that data can be shared between Arrow and each of them without the need for costly copying back and forth.
 This translation cost is known as **serialization** and **deserialization**.
 
 The Arrow format and specification is a key tool in the broader drive to create composable analytic systems.
