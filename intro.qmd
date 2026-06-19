@@ -151,7 +151,7 @@ This makes it close to what most existing projects were already using, and desir
 
 What does that entail for the Arrow format?
 First, Arrow is **columnar**, like R, pandas, and most modern query engines.
-Many traditional databases and common formats for storing tabular data, such as CSVs, are row-oriented, which means that data is stored one *row* at a time, so values in memory would be taken from left-to-right and then top-to-bottom in the table below
+Many traditional databases and common formats for storing tabular data, such as CSVs, are row-oriented, which means that data is stored one *row* at a time, so values in memory would be taken from left-to-right and then top-to-bottom in the table below.
 This format is great for transactional workflows, where entire rows are being retrieved or updated, or extra rows are being appended to the data.
 However, it's less well suited for analytic workflows involving data manipulation, where we want to select a subset of columns, and perform operations like aggregated summaries.
 
